@@ -1,0 +1,7 @@
+queue.form:
+  path: '/status_nodes'
+  defaults:
+    _title: 'Publish Form'
+    _form: '\Drupal\queue\Form\FormUnpublishNode'
+  requirements:
+    _permission: 'access content'
